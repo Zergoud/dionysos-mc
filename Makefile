@@ -23,34 +23,31 @@ help:
 	@echo "Quick start: make init"
 
 # Create necessary directories if they don't exist
-setup-dirs:
-	@mkdir -p srv/minecraft-data srv/mc-backups
-	@touch srv/minecraft-data/plugins.txt
 
-start: setup-dirs
+start:
 	@echo "🚀 Starting Minecraft server..."
-	@docker-compose up -d
+	@docker compose up -d
 	@echo "✅ Server started! Check status with: make status"
 	@echo "📋 View logs with: make logs"
 
 stop:
 	@echo "🛑 Stopping Minecraft server..."
-	@docker-compose down
+	@docker compose down
 	@echo "✅ Server stopped!"
 
 restart:
 	@echo "🔄 Restarting Minecraft server..."
-	@docker-compose restart mc
+	@docker compose restart mc
 	@echo "✅ Server restarted!"
 
 logs:
 	@echo "📋 Showing server logs (Ctrl+C to exit)..."
-	@docker-compose logs -f mc
+	@docker compose logs -f mc
 
 status:
 	@echo "📊 Server Status:"
 	@echo "=================="
-	@docker-compose ps
+	@docker compose ps
 	@echo ""
 	@echo "💾 Disk Usage:"
 	@du -sh srv/ 2>/dev/null || echo "No data yet"
@@ -60,8 +57,8 @@ status:
 
 backup:
 	@echo "💾 Creating manual backup..."
-	@docker-compose exec -T mc-backup backup-now || echo "⚠️  Backup service not running. Starting backup manually..."
-	@if [ ! $$(docker-compose ps -q mc-backup) ]; then \
+	@docker compose exec -T mc-backup backup-now || echo "⚠️  Backup service not running. Starting backup manually..."
+	@if [ ! $$(docker compose ps -q mc-backup) ]; then \
 		echo "📦 Creating backup using tar..."; \
 		tar -czf srv/mc-backups/manual-backup-$$(date +%Y%m%d-%H%M%S).tar.gz -C srv/minecraft-data .; \
 		echo "✅ Manual backup created!"; \
@@ -69,7 +66,7 @@ backup:
 
 clean:
 	@echo "🧹 Cleaning up old Docker containers and images..."
-	@docker-compose down --remove-orphans
+	@docker compose down --remove-orphans
 	@docker system prune -f
 	@echo "✅ Cleanup complete!"
 
@@ -86,7 +83,7 @@ init: setup-dirs
 		echo "https://github.com/henkelmax/simple-voice-chat/releases/download/bukkit-2.5.21/voicechat-bukkit-2.5.21.jar" >> srv/minecraft-data/plugins.txt; \
 	fi
 	@echo "🚀 Starting server for the first time..."
-	@docker-compose up -d
+	@docker compose up -d
 	@echo "⏳ Server is initializing... This may take a few minutes."
 	@echo "📋 Monitor progress with: make logs"
 	@echo "🎯 Server will be available at: localhost:25565"
@@ -94,34 +91,34 @@ init: setup-dirs
 # Update server to latest version
 update:
 	@echo "🔄 Updating server to latest version..."
-	@docker-compose pull
-	@docker-compose up -d
+	@docker compose pull
+	@docker compose up -d
 	@echo "✅ Server updated!"
 
 # Reload plugins from plugins.txt
 plugins:
 	@echo "🔌 Reloading plugins..."
-	@docker-compose restart mc
+	@docker compose restart mc
 	@echo "✅ Plugins reloaded! Check logs for any errors."
 
 # Advanced: Enter server console
 console:
 	@echo "🖥️  Entering server console (type 'exit' to leave)..."
-	@docker-compose exec mc rcon-cli
+	@docker compose exec mc rcon-cli
 
 # Advanced: View backup logs
 backup-logs:
 	@echo "💾 Backup service logs:"
-	@docker-compose logs mc-backup
+	@docker compose logs mc-backup
 
 # Quick health check
 health:
 	@echo "🏥 Server Health Check:"
 	@echo "======================="
-	@if docker-compose ps | grep -q "Up"; then \
+	@if docker compose ps | grep -q "Up"; then \
 		echo "✅ Server is running"; \
 		echo "📊 Container status:"; \
-		docker-compose ps; \
+		docker compose ps; \
 	else \
 		echo "❌ Server is not running"; \
 		echo "💡 Start with: make start"; \
