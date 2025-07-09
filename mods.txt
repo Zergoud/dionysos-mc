@@ -12,9 +12,3 @@ https://download.luckperms.net/1594/fabric/LuckPerms-Fabric-5.5.9.jar
 
 #DiscordSRV - Discord integration
 #https://get.discordsrv.com/
-
-#Fabricord - Discord integration chat and nickname
-https://cdn.modrinth.com/data/xU8Bn98V/versions/Sp4G3fHk/Fabricord-4.2.1.jar
-
-#Discord integration fabric - Discord integration link discord account 
-https://cdn.modrinth.com/data/rbJ7eS5V/versions/JOLMTAVo/dcintegration-fabric-MC1.21.6-3.1.0.1.jar
