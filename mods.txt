@@ -1,14 +1,21 @@
-# Minecraft Server Plugins
-# Add plugin URLs here, one per line
+# Minecraft Server Mods for Fabric 1.21
+# Add mod URLs here, one per line
+
+# Fabric API - Required for many Fabric mods
+https://cdn.modrinth.com/data/P7dR8mSH/versions/0.94.3+1.21/fabric-api-0.94.3+1.21.jar
+
+# Fabric Language Kotlin - Required for Fabricord
+https://cdn.modrinth.com/data/Ha28R6CL/versions/1.13.1+kotlin.2.1.10/fabric-language-kotlin-1.13.1+kotlin.2.1.10.jar
 
 # Simple Voice Chat for communication
-https://cdn.modrinth.com/data/9eGKb6K1/versions/bilPCGtM/voicechat-fabric-1.21.7-2.5.33.jar
+https://cdn.modrinth.com/data/9eGKb6K1/versions/2.5.33/voicechat-fabric-1.21-2.5.33.jar
 
-#LuckPerms - Permissions management
-https://download.luckperms.net/1594/fabric/LuckPerms-Fabric-5.5.9.jar
+# LuckPerms - Permissions management
+https://cdn.modrinth.com/data/luckperms/versions/5.4.103/LuckPerms-Fabric-5.4.103.jar
 
-#Chunky - Chunk loading and management
-#https://cdn.modrinth.com/data/fALzjamp/versions/inWDi2cf/Chunky-Fabric-1.4.40.jar
+# Fabricord - Discord integration chat and nickname
+https://cdn.modrinth.com/data/xU8Bn98V/versions/4.2.1/Fabricord-4.2.1.jar
 
-#DiscordSRV - Discord integration
-#https://get.discordsrv.com/
+# Discord Integration Fabric - Discord integration link discord account
+https://cdn.modrinth.com/data/rbJ7eS5V/versions/3.1.0.1/dcintegration-fabric-MC1.21-3.1.0.1.jar
+
