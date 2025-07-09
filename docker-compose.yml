@@ -6,12 +6,12 @@ services:
       - "24454:24454/udp"  # Simple Voice Chat port
     environment:
       EULA: "TRUE"
-      TYPE: "PAPER"
+      TYPE: "FABRIC"
       VERSION: "LATEST"
       MEMORY: "10G"
       MOTD: "\\u00A7b\\u00A7lDionysos MC Server \\u00A7r\\u00A78- \\u00A7fWelcome!"
       # Enable optimizations
-      # USE_AIKAR_FLAGS: "true"
+      USE_AIKAR_FLAGS: "true"
       # Server configuration
       DIFFICULTY: "normal"
       MAX_PLAYERS: "20"
@@ -26,6 +26,7 @@ services:
       SPAWN_MONSTERS: "true"
       SPAWN_NPCS: "true"
       PLUGINS_FILE: "/extras/plugins.txt"
+      MODS_FILE: "/extras/plugins.txt"
     tty: true
     stdin_open: true
     restart: unless-stopped
@@ -33,6 +34,7 @@ services:
       # attach a directory relative to the directory containing this compose file
       - ./srv/minecraft-data:/data
       - ./plugins.txt:/extras/plugins.txt:ro
+      - ./mods.txt:/extras/mods.txt:ro
     networks:
       - minecraft
   
