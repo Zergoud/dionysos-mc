@@ -7,7 +7,7 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "FABRIC"
-      VERSION: "LATEST"
+      VERSION: "1.21"
       MEMORY: "10G"
       MOTD: "\\u00A7b\\u00A7lDionysos MC Server \\u00A7r\\u00A78- \\u00A7fWelcome!"
       # Enable optimizations
