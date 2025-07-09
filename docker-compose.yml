@@ -26,7 +26,7 @@ services:
       SPAWN_MONSTERS: "true"
       SPAWN_NPCS: "true"
       PLUGINS_FILE: "/extras/plugins.txt"
-      MODS_FILE: "/extras/plugins.txt"
+      MODS_FILE: "/extras/mods.txt"
     tty: true
     stdin_open: true
     restart: unless-stopped

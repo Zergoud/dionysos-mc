@@ -2,19 +2,19 @@
 # Add plugin URLs here, one per line
 
 # Simple Voice Chat for communication
-#https://cdn.modrinth.com/data/9eGKb6K1/versions/TkfAxjFx/voicechat-bukkit-2.5.33.jar
+https://cdn.modrinth.com/data/9eGKb6K1/versions/TkfAxjFx/voicechat-bukkit-2.5.33.jar
 
 # EssentialsX - Core server management commands
-#https://github.com/EssentialsX/Essentials/releases/download/2.21.1/EssentialsX-2.21.1.jar
+https://github.com/EssentialsX/Essentials/releases/download/2.21.1/EssentialsX-2.21.1.jar
 
 #LuckPerms - Permissions management
-#https://download.luckperms.net/1594/bukkit/loader/LuckPerms-Bukkit-5.5.9.jar
+https://download.luckperms.net/1594/bukkit/loader/LuckPerms-Bukkit-5.5.9.jar
 
 #Chunky - Chunk loading and management
-#https://hangarcdn.papermc.io/plugins/pop4959/Chunky/versions/1.4.40/PAPER/Chunky-Bukkit-1.4.40.jar
+https://hangarcdn.papermc.io/plugins/pop4959/Chunky/versions/1.4.40/PAPER/Chunky-Bukkit-1.4.40.jar
 
 #ClearLag - Lag reduction tool
-#https://dev.bukkit.org/projects/clearlagg/files/latest
+https://dev.bukkit.org/projects/clearlagg/files/latest
 
 #DiscordSRV - Discord integration
-#https://get.discordsrv.com/
+https://get.discordsrv.com/
