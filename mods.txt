@@ -8,7 +8,7 @@ https://cdn.modrinth.com/data/9eGKb6K1/versions/bilPCGtM/voicechat-fabric-1.21.7
 https://download.luckperms.net/1594/fabric/LuckPerms-Fabric-5.5.9.jar
 
 #Chunky - Chunk loading and management
-https://cdn.modrinth.com/data/fALzjamp/versions/inWDi2cf/Chunky-Fabric-1.4.40.jar
+#https://cdn.modrinth.com/data/fALzjamp/versions/inWDi2cf/Chunky-Fabric-1.4.40.jar
 
 #DiscordSRV - Discord integration
 https://get.discordsrv.com/
