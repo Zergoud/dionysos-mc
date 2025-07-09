@@ -24,3 +24,11 @@ https://cdn.modrinth.com/data/lvTwZuVb/versions/WV592KO9/clearlag.zip
 
 # Chunky
 https://cdn.modrinth.com/data/fALzjamp/versions/RVFHfo1D/Chunky-Fabric-1.4.23.jar
+
+# EssentialsX
+https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/artifact/jars/EssentialsX-2.21.2-dev+26-e39b614.jar
+https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/artifact/jars/EssentialsXChat-2.21.2-dev+26-e39b614.jar
+https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/artifact/jars/EssentialsXSpawn-2.21.2-dev+26-e39b614.jar
+https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/artifact/jars/EssentialsXDiscord-2.21.2-dev+26-e39b614.jar
+https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/artifact/jars/EssentialsXDiscordLink-2.21.2-dev+26-e39b614.jar
+https://ci.ender.zone/job/EssentialsX/lastSuccessfulBuild/artifact/jars/EssentialsXAntiBuild-2.21.2-dev+26-e39b614.jar
