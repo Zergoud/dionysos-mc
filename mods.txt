@@ -1,75 +1,121 @@
 # Minecraft Server Mods for Fabric 1.21
-# Ce fichier contient une liste d'URLs pour les mods Fabric pour Minecraft version 1.21
-# Ajoutez les URLs des mods ici, une par ligne
-
-# Fabric API - Requis pour de nombreux mods Fabric
-# Ce mod est essentiel pour le bon fonctionnement de nombreux autres mods Fabric
+# This file contains a list of URLs for Fabric mods for Minecraft version 1.21
+# Add the URLs of the mods here, one per line
+# ============================================
+# Server Side
+# ============================================
+# Fabric API - Required for many Fabric mods
+# This mod is essential for the proper functioning of many other Fabric mods
 https://cdn.modrinth.com/data/P7dR8mSH/versions/oGwyXeEI/fabric-api-0.102.0%2B1.21.jar
-
-# Fabric Language Kotlin - Requis pour Fabricord
-# Ce mod est nécessaire pour utiliser Fabricord, qui permet l'intégration avec Discord
+# Fabric Language Kotlin - Required for Fabricord
+# This mod is necessary to use Fabricord, which allows integration with Discord
 https://cdn.modrinth.com/data/Ha28R6CL/versions/mccDBWqV/fabric-language-kotlin-1.13.4%2Bkotlin.2.2.0.jar
-
-# Simple Voice Chat pour la communication vocale
-# Ce mod permet aux joueurs de communiquer via la voix dans le jeu
+# Simple Voice Chat for voice communication
+# This mod allows players to communicate via voice in the game
 https://cdn.modrinth.com/data/9eGKb6K1/versions/7NHvY1SY/voicechat-fabric-1.21.1-2.5.33.jar
-
-# LuckPerms - Gestion des permissions
-# Ce mod permet de gérer les permissions des joueurs sur le serveur
+# LuckPerms - Permission management
+# This mod allows managing player permissions on the server
 https://cdn.modrinth.com/data/Vebnzrzj/versions/l47d4ZWk/LuckPerms-Fabric-5.4.140.jar
-
-# Fabricord - Intégration Discord pour le chat et les pseudos
-# Ce mod est commenté et donc non actif. Il permet l'intégration avec Discord pour le chat et les pseudos
+# Fabricord - Discord integration for chat and usernames
+# This mod is commented out and thus inactive. It allows integration with Discord for chat and usernames
 #https://cdn.modrinth.com/data/xU8Bn98V/versions/Sp4G3fHk/Fabricord-4.2.1.jar
-
-# Discord Integration Fabric - Intégration Discord pour lier les comptes Discord
-# Ce mod permet aux joueurs de lier leur compte Discord à leur compte Minecraft
+# Discord Integration Fabric - Discord integration for linking Discord accounts
+# This mod allows players to link their Discord account to their Minecraft account
 https://cdn.modrinth.com/data/rbJ7eS5V/versions/I3kp6jxL/dcintegration-fabric-3.0.7.2-1.21.jar
-
 # ClearLag
-# Ce mod aide à réduire le lag en nettoyant les entités inutiles
+# This mod helps reduce lag by clearing unnecessary entities
 https://cdn.modrinth.com/data/lvTwZuVb/versions/WV592KO9/clearlag.zip
-
 # Chunky
-# Ce mod permet de pré-générer des chunks pour améliorer les performances du serveur
+# This mod allows pre-generating chunks to improve server performance
 https://cdn.modrinth.com/data/fALzjamp/versions/RVFHfo1D/Chunky-Fabric-1.4.23.jar
-
 # EssentialsX
-# Ce mod ajoute des commandes et fonctionnalités essentielles pour la gestion du serveur
+# This mod adds essential commands and features for server management
 https://cdn.modrinth.com/data/o69N0FT2/versions/y4NOWEDX/fabric-essentials-1.2.1%2B1.21.1.jar
-
 # FerriteCore
-# Ce mod optimise l'utilisation de la mémoire pour améliorer les performances
+# This mod optimizes memory usage to improve performance
 https://cdn.modrinth.com/data/uXXizFIs/versions/wmIZ4wP4/ferritecore-7.0.0-fabric.jar
-
 # Lithium
-# Ce mod optimise divers aspects du jeu pour améliorer les performances
+# This mod optimizes various aspects of the game to improve performance
 https://cdn.modrinth.com/data/gvQqBUqZ/versions/M7RXiitG/lithium-fabric-mc1.21-0.13.1.jar
-
 # ModernFix
-# Ce mod apporte des optimisations modernes pour améliorer les performances
+# This mod brings modern optimizations to improve performance
 https://cdn.modrinth.com/data/nmDcB62a/versions/i8GSONFm/modernfix-fabric-5.19.1%2Bmc1.21.jar
-
 # Krypton
-# Ce mod optimise le réseau pour réduire la latence
+# This mod optimizes network performance to reduce latency
 https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar
-
 # C2ME (Crafting to Minecraft Entity)
-# Ce mod optimise les mécaniques de crafting pour améliorer les performances
+# This mod optimizes crafting mechanics to improve performance
 https://cdn.modrinth.com/data/VSNURh3q/versions/fEWDAK3p/c2me-fabric-mc1.21-0.2.0%2Balpha.11.109.jar
-
 # Noisium
-# Ce mod optimise la génération du bruit pour améliorer les performances
+# This mod optimizes noise generation to improve performance
 https://cdn.modrinth.com/data/KuNKN7d2/versions/4sGQgiu2/noisium-fabric-2.3.0%2Bmc1.21-1.21.1.jar
-
 # ServerCore
-# Ce mod optimise divers aspects du serveur pour améliorer les performances
+# This mod optimizes various aspects of the server to improve performance
 https://cdn.modrinth.com/data/4WWQxlQP/versions/pdvZYDOA/servercore-fabric-1.5.4%2B1.21.jar
-
 # Ksyxis
-# Ce mod optimise la gestion des chunks pour améliorer les performances
+# This mod optimizes chunk management to improve performance
 https://cdn.modrinth.com/data/2ecVyZ49/versions/ueN87SNs/Ksyxis-1.3.3.jar
-
 # ScalableLux
-# Ce mod optimise l'éclairage pour améliorer les performances
+# This mod optimizes lighting to improve performance
 https://cdn.modrinth.com/data/Ps1zyz6x/versions/Oh80nTJ5/ScalableLux-0.1.0%2Bfabric.26c6e72-all.jar
+# ============================================
+# Client Side (Mandatory Installation)
+# ============================================
+# Waystones - Adds waypoints for teleportation
+https://cdn.modrinth.com/data/LOpKHB2A/versions/5QbmQMeD/waystones-fabric-1.21.1-21.1.19.jar
+# Iris - Adds shader support
+https://cdn.modrinth.com/data/YL57xq9U/versions/zsoi0dso/iris-fabric-1.8.8%2Bmc1.21.1.jar
+# Xaero's Minimap - Adds a minimap
+https://cdn.modrinth.com/data/1bokaNcj/versions/BKURGnp1/Xaeros_Minimap_25.2.6_Fabric_1.21.jar
+# Xaero's World Map - Adds a world map
+https://cdn.modrinth.com/data/NcUtCpym/versions/3XtBvLkH/XaerosWorldMap_1.39.9_Fabric_1.21.jar
+# Sodium - Performance optimization
+https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13%2Bmc1.21.1.jar
+# Open Parties and Claims - For chunks and factions, compatible with Xaero's Minimap
+https://cdn.modrinth.com/data/gF3BGWvG/versions/4x8OoQC3/open-parties-and-claims-fabric-1.21.1-0.24.0.jar
+# Lootr - Enhances loot tables
+https://cdn.modrinth.com/data/EltpO5cN/versions/3FjXvOGL/lootr-fabric-1.21-1.10.35.91.jar
+# Traveler's Backpack - Adds wearable backpacks
+https://cdn.modrinth.com/data/rlloIFEV/versions/Mse7s79Y/travelersbackpack-fabric-1.21.1-10.1.19.jar
+# Storage Drawers - Adds storage solutions
+https://cdn.modrinth.com/data/guitPqEi/versions/4uz0eG4F/Storage%20Drawers-fabric-1.21-13.8.9.jar
+# Tom's Storage - More storage options
+https://cdn.modrinth.com/data/XZNI4Cpy/versions/jPuHszUe/toms_storage_fabric-1.21-2.2.1.jar
+# JEI (Just Enough Items) - Item and recipe viewing
+https://cdn.modrinth.com/data/u6dRKJwZ/versions/PtFzlS3P/jei-1.21.1-fabric-19.21.2.313.jar
+# Controlling - Key binding management
+https://cdn.modrinth.com/data/xv94TkTM/versions/xl0PX3KR/Controlling-fabric-1.21-18.0.4.jar
+# Villages and Pillages - Enhances village mechanics
+https://cdn.modrinth.com/data/klXONLDA/versions/Q5mOv1hJ/villagesandpillages-fabric-mc1.21.1-1.0.3.jar
+# Terralith - Adds new biomes
+https://cdn.modrinth.com/data/8oi3bsk5/versions/MuJMtPGQ/Terralith_1.21.x_v2.5.8.jar*
+# Veinminer - Allows mining whole veins of ores
+https://cdn.modrinth.com/data/OhduvhIc/versions/1NZqjOaM/veinminer-fabric-2.4.2.jar
+# Veinminer Enchant - Adds an enchantment for Veinminer
+https://cdn.modrinth.com/data/4sP0LXxp/versions/YqKzhrfs/veinminer-enchant-2.2.2.jar
+# Not Enough Animations - Adds more animations
+https://cdn.modrinth.com/data/MPCX6s5C/versions/8aazOiEt/notenoughanimations-fabric-1.10.1-mc1.21.jar
+# WorldEdit - In-game world editing tool
+https://cdn.modrinth.com/data/1u6JkXh5/versions/WTAFvuRx/worldedit-mod-7.3.8.jar
+# Inventory Essentials - Adds inventory management tools
+https://cdn.modrinth.com/data/Boon8xwi/versions/P9P9R5jy/inventoryessentials-fabric-1.21.1-21.1.2.jar
+# Zoomify - Adds zoom functionality
+https://cdn.modrinth.com/data/w7ThoJFB/versions/BTXkmTHl/Zoomify-2.14.4%2B1.21.1.jar
+# Image2Map - Converts images to maps
+https://cdn.modrinth.com/data/13RpG7dA/versions/IcHYiWHv/image2map-0.7.1%2B1.21.jar
+# Waterframes - Improves water rendering
+https://cdn.modrinth.com/data/eBzFuVTM/versions/PIXgOEz5/waterframes-FABRIC-mc1.21.1-v2.1.12c.jar
+# Another Furniture - Adds more furniture
+https://cdn.modrinth.com/data/ulloLmqG/versions/y4yMDiD3/another_furniture-fabric-4.0.0.jar
+# Skin Layers 3D - Improves skin rendering
+https://cdn.modrinth.com/data/zV5r3pPn/versions/N6wRyS3w/skinlayers3d-fabric-1.8.1-mc1.21.jar
+# BetterF3 - Enhances the debug screen
+https://cdn.modrinth.com/data/8shC1gFX/versions/sXO3idkS/BetterF3-11.0.1-Fabric-1.21.jar
+# Immersive UI - Improves the user interface
+https://cdn.modrinth.com/data/9wv7LuMc/versions/J7Xl5cwA/ImmersiveUI-FABRIC-0.3.0.jar
+# Easy NPC - Adds NPC functionality
+https://cdn.modrinth.com/data/CgGEe1h3/versions/EJletPw9/easy_npc-fabric-1.21-5.5.10.jar
+# Better Combat - Enhances combat mechanics
+https://cdn.modrinth.com/data/5sy6g3kz/versions/Z2s5lcbp/bettercombat-fabric-2.2.4%2B1.21.1.jar
+# Handcrafted - Adds decorative blocks
+https://cdn.modrinth.com/data/pJmCFF0p/versions/f7tGbQaE/handcrafted-fabric-1.21-4.0.1.jar
