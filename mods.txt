@@ -14,7 +14,7 @@
 # Fabric API - Required for many Fabric mods
 
 # This mod is essential for the proper functioning of many other Fabric mods
-https://cdn.modrinth.com/data/P7dR8mSH/versions/19viawBV/fabric-api-0.116.4%2B1.21.1.jar
+https://cdn.modrinth.com/data/P7dR8mSH/versions/oGwyXeEI/fabric-api-0.102.0%2B1.21.jar
 
 # Fabric Language Kotlin - Required for Fabricord
 
@@ -175,7 +175,7 @@ https://cdn.modrinth.com/data/w7ThoJFB/versions/BTXkmTHl/Zoomify-2.14.4%2B1.21.1
 https://cdn.modrinth.com/data/13RpG7dA/versions/IcHYiWHv/image2map-0.7.1%2B1.21.jar
 
 # Waterframes - Improves water rendering
-https://cdn.modrinth.com/data/eBzFuVTM/versions/PIXgOEz5/waterframes-FABRIC-mc1.21.1-v2.1.12c.jar
+https://cdn.modrinth.com/data/eBzFuVTM/versions/OIroJuKI/waterframes-FABRIC-mc1.20.1-v2.1.12c.jar
 
 # Another Furniture - Adds more furniture
 https://cdn.modrinth.com/data/ulloLmqG/versions/y4yMDiD3/another_furniture-fabric-4.0.0.jar
