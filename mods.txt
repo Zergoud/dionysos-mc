@@ -145,8 +145,8 @@ https://cdn.modrinth.com/data/o69N0FT2/versions/S8YuygJB/fabric-essentials-1.4.4
 # jei-1.21.1-fabric-19.21.2.313 - jei-1.21.1-fabric-19.21.2.313.jar
 https://cdn.modrinth.com/data/u6dRKJwZ/versions/PtFzlS3P/jei-1.21.1-fabric-19.21.2.313.jar
 
-# mc2discord-fabric-1.21.x-4.2.4 - mc2discord-fabric-1.21.x-4.2.4.jar
-https://cdn.modrinth.com/data/Cfbcv7uF/versions/Gl8sM8TE/mc2discord-fabric-1.21.x-4.2.4.jar
+# discord integration
+https://cdn.modrinth.com/data/rbJ7eS5V/versions/I3kp6jxL/dcintegration-fabric-3.0.7.2-1.21.jar
 
 # betterf3-11.0.3-fabric-1.21.1 - BetterF3-11.0.3-Fabric-1.21.1.jar
 https://cdn.modrinth.com/data/8shC1gFX/versions/phATjGhF/BetterF3-11.0.3-Fabric-1.21.1.jar
