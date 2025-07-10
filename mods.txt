@@ -14,7 +14,7 @@
 # Fabric API - Required for many Fabric mods
 
 # This mod is essential for the proper functioning of many other Fabric mods
-https://cdn.modrinth.com/data/P7dR8mSH/versions/oGwyXeEI/fabric-api-0.102.0%2B1.21.jar
+https://cdn.modrinth.com/data/P7dR8mSH/versions/19viawBV/fabric-api-0.116.4%2B1.21.1.jar
 
 # Fabric Language Kotlin - Required for Fabricord
 
@@ -141,6 +141,9 @@ https://cdn.modrinth.com/data/XZNI4Cpy/versions/jPuHszUe/toms_storage_fabric-1.2
 # JEI (Just Enough Items) - Item and recipe viewing
 https://cdn.modrinth.com/data/u6dRKJwZ/versions/PtFzlS3P/jei-1.21.1-fabric-19.21.2.313.jar
 
+# JER Just Enough Resources - adds info on mobs, world gen, villagers and many more!
+https://cdn.modrinth.com/data/uEfK2CXF/versions/ZS5fdj6i/JustEnoughResources-Fabric-1.21-1.6.0.11.jar
+
 # Controlling - Key binding management
 https://cdn.modrinth.com/data/xv94TkTM/versions/xl0PX3KR/Controlling-fabric-1.21-18.0.4.jar
 
@@ -148,7 +151,7 @@ https://cdn.modrinth.com/data/xv94TkTM/versions/xl0PX3KR/Controlling-fabric-1.21
 https://cdn.modrinth.com/data/klXONLDA/versions/Q5mOv1hJ/villagesandpillages-fabric-mc1.21.1-1.0.3.jar
 
 # Terralith - Adds new biomes
-https://cdn.modrinth.com/data/8oi3bsk5/versions/MuJMtPGQ/Terralith_1.21.x_v2.5.8.jar*
+https://cdn.modrinth.com/data/8oi3bsk5/versions/MuJMtPGQ/Terralith_1.21.x_v2.5.8.jar
 
 # Veinminer - Allows mining whole veins of ores
 https://cdn.modrinth.com/data/OhduvhIc/versions/1NZqjOaM/veinminer-fabric-2.4.2.jar
@@ -197,3 +200,9 @@ https://cdn.modrinth.com/data/pJmCFF0p/versions/f7tGbQaE/handcrafted-fabric-1.21
 
 # phases-discord-rich-presence - Discord rich presence
 https://cdn.modrinth.com/data/25psa7hI/versions/tK14MLTG/phases-discord-rich-presence-1.5.0-1.21.jar
+
+# Better Advancements
+https://cdn.modrinth.com/data/Q2OqKxDG/versions/j25BSG4B/BetterAdvancements-Fabric-1.21-0.4.2.16.jar
+
+# Architectury - Requis par OctoLib
+https://cdn.modrinth.com/data/lhGA9TYQ/versions/Wto0RchG/architectury-13.0.8-fabric.jar
