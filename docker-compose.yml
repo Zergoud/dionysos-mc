@@ -35,7 +35,7 @@ services:
       - ./srv/minecraft-data:/data
       - ./plugins.txt:/extras/plugins.txt:ro
       - ./mods.txt:/extras/mods.txt:ro
-      - ./server-icon.png:/extras/server-icon.png:ro
+      - ./server-icon.png:/srv/minecraft-data/server-icon.png:ro
       #- ./mods:/mods:ro
     networks:
       - minecraft
