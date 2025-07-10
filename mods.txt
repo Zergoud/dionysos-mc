@@ -16,33 +16,6 @@
 # This mod is essential for the proper functioning of many other Fabric mods
 https://cdn.modrinth.com/data/P7dR8mSH/versions/19viawBV/fabric-api-0.116.4%2B1.21.1.jar
 
-# playeranimator - Requis par Better Combat (version 1.9.0 ou +)
-https://cdn.modrinth.com/data/gedNE4y2/versions/WhVSA0mW/player-animation-lib-fabric-2.0.1%2B1.21.1.jar
-
-# resourcefullib - Requis par Handcrafted (version 3.0.0 ou +)
-https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar
-
-# octolib - Requis par ImmersiveUI (version 0.4.2 ou +)
-https://cdn.modrinth.com/data/RH2KUdKJ/versions/6d1vaxHI/OctoLib-FABRIC-0.5.0.1.jar
-
-# balm-fabric - Requis par Inventory Essentials et Waystones
-https://cdn.modrinth.com/data/MBAkmtvl/versions/yylFzYuh/balm-fabric-1.21.1-21.0.41.jar
-
-# forgeconfigapiport - Requis par Open Parties and Claims (version 21.0.5 ou +)
-https://cdn.modrinth.com/data/ohNO6lps/versions/GOreNSW6/ForgeConfigAPIPort-v21.0.8-1.21-Fabric.jar
-
-# cardinal-components-entity - Requis par Traveler's Backpack
-https://cdn.modrinth.com/data/K01OU20C/versions/xzMJDzyx/cardinal-components-api-6.1.2.jar
-
-# silk-core - Requis par Veinminer
-https://cdn.modrinth.com/data/aTaCgKLW/versions/jrC1TCfF/silk-all-1.10.7.jar
-
-# yungsapi - Requis par Villages & Pillages (version 1.21.1-Fabric-5.1.4 ou +)
-https://cdn.modrinth.com/data/Ua7DFN59/versions/9aZPNrZC/YungsApi-1.21.1-Fabric-5.1.6.jar
-
-# creativecore - Requis par WaterFrames (version 2.13.1 ou +)
-https://cdn.modrinth.com/data/OsZiaDHq/versions/Ee9C5Y9X/CreativeCore_FABRIC_v2.12.9_mc1.21.jar
-
 # Fabric Language Kotlin - Required for Fabricord
 
 # This mod is necessary to use Fabricord, which allows integration with Discord
@@ -233,3 +206,30 @@ https://cdn.modrinth.com/data/Q2OqKxDG/versions/j25BSG4B/BetterAdvancements-Fabr
 
 # Architectury - Requis par OctoLib
 https://cdn.modrinth.com/data/lhGA9TYQ/versions/Wto0RchG/architectury-13.0.8-fabric.jar
+
+# playeranimator - Requis par Better Combat (version 1.9.0 ou +)
+https://cdn.modrinth.com/data/gedNE4y2/versions/WhVSA0mW/player-animation-lib-fabric-2.0.1%2B1.21.1.jar
+
+# resourcefullib - Requis par Handcrafted (version 3.0.0 ou +)
+https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar
+
+# octolib - Requis par ImmersiveUI (version 0.4.2 ou +)
+https://cdn.modrinth.com/data/RH2KUdKJ/versions/6d1vaxHI/OctoLib-FABRIC-0.5.0.1.jar
+
+# balm-fabric - Requis par Inventory Essentials et Waystones
+https://cdn.modrinth.com/data/MBAkmtvl/versions/yylFzYuh/balm-fabric-1.21.1-21.0.41.jar
+
+# forgeconfigapiport - Requis par Open Parties and Claims (version 21.0.5 ou +)
+https://cdn.modrinth.com/data/ohNO6lps/versions/GOreNSW6/ForgeConfigAPIPort-v21.0.8-1.21-Fabric.jar
+
+# cardinal-components-entity - Requis par Traveler's Backpack
+https://cdn.modrinth.com/data/K01OU20C/versions/xzMJDzyx/cardinal-components-api-6.1.2.jar
+
+# silk-core - Requis par Veinminer
+https://cdn.modrinth.com/data/aTaCgKLW/versions/jrC1TCfF/silk-all-1.10.7.jar
+
+# yungsapi - Requis par Villages & Pillages (version 1.21.1-Fabric-5.1.4 ou +)
+https://cdn.modrinth.com/data/Ua7DFN59/versions/9aZPNrZC/YungsApi-1.21.1-Fabric-5.1.6.jar
+
+# creativecore - Requis par WaterFrames (version 2.13.1 ou +)
+https://cdn.modrinth.com/data/OsZiaDHq/versions/Ee9C5Y9X/CreativeCore_FABRIC_v2.12.9_mc1.21.jar
