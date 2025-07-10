@@ -14,7 +14,7 @@ https://cdn.modrinth.com/data/9eGKb6K1/versions/TkfAxjFx/voicechat-bukkit-2.5.33
 https://cdn.modrinth.com/data/Vebnzrzj/versions/l47d4ZWk/LuckPerms-Fabric-5.4.140.jar
 
 # Fabricord - Discord integration chat and nickname
-https://cdn.modrinth.com/data/xU8Bn98V/versions/Sp4G3fHk/Fabricord-4.2.1.jar
+#https://cdn.modrinth.com/data/xU8Bn98V/versions/Sp4G3fHk/Fabricord-4.2.1.jar
 
 # Discord Integration Fabric - Discord integration link discord account
 https://cdn.modrinth.com/data/rbJ7eS5V/versions/I3kp6jxL/dcintegration-fabric-3.0.7.2-1.21.jar
