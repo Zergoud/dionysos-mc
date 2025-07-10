@@ -7,8 +7,8 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "FABRIC"
-      VERSION: "1.21"
-      MEMORY: "10G"
+      VERSION: "1.21.1"
+      MEMORY: "12G"
       MOTD: "\\u00A7b\\u00A7lDionysos MC Server \\u00A7r\\u00A78- \\u00A7fWelcome!"
       # Enable optimizations
       USE_AIKAR_FLAGS: "true"
@@ -35,13 +35,14 @@ services:
       - ./srv/minecraft-data:/data
       - ./plugins.txt:/extras/plugins.txt:ro
       - ./mods.txt:/extras/mods.txt:ro
+      #- ./mods:/mods:ro
     networks:
       - minecraft
   
   mc-backup:
     image: itzg/mc-backup:latest
     environment:
-      BACKUP_INTERVAL: "12h"
+      BACKUP_INTERVAL: "2h"
       BACKUP_METHOD: "tar"
       INITIAL_DELAY: "2m"
       # Backup retention
