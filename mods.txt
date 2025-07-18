@@ -191,4 +191,4 @@ https://cdn.modrinth.com/data/K01OU20C/versions/xzMJDzyx/cardinal-components-api
 https://cdn.modrinth.com/data/13RpG7dA/versions/IcHYiWHv/image2map-0.7.1%2B1.21.jar
 
 # dynmap - MC google maps
-https://modrinth.com/plugin/dynmap/version/cQ5fH43X
+https://cdn.modrinth.com/data/fRQREgAc/versions/cQ5fH43X/Dynmap-3.7-beta-8-fabric-1.21.1.jar
