@@ -59,6 +59,7 @@ services:
       - mc
     networks:
       - minecraft
+      - nginx_network
     restart: unless-stopped
 
 networks:
