@@ -64,3 +64,6 @@ services:
 networks:
   minecraft:
     driver: bridge
+  nginx_network:
+    external: true
+    name: nginx_network
